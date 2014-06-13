@@ -1,0 +1,26 @@
+输出所有环境变量：env
+\符号表示动态信息
+\u 当前用户 \w 当前目录 
+echo $PATH 输出PATH内容
+修改变量内容：
+PS1="\w >>"  修改时不需要用美元符号
+
+>>bash 开启了一个新的bash程序
+
+添加一个环境变量到bash
+>>export MESSAGE="hello"
+
+添加一个PATH到环境变量
+>>export PATH=/mybin:$PATH
+
+在HOME目录下纯在的.bashrc文件为bash的设置文件 每次开启bash时会读取该文件中的设置文件
+添加一个path目录
+打开.bash_profile  .profile  .bash_login .tcshrc 添加 export PATH=/mybin:$PATH
+当前path
+PATH=/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin
+
+DNS Server Check
+host -t ns bianyang.me
+
+Xcode opencv环境的配置
+新建项目>>项目中找到Search Path>>Header Search Path add /opt/local/inc 
