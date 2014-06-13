@@ -27,5 +27,3 @@ Xcode opencv环境的配置
 
 The new line for git test.
 my name is bianyang.a student study in waseda university,Japan.
-
-adfjaifjiodfjiosdfjoisfjiosdjfoisdfjosdjfoisdjfoisdjfoisdjfisodfjoisdfjoisofis
