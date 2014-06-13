@@ -24,3 +24,6 @@ host -t ns bianyang.me
 
 Xcode opencv环境的配置
 新建项目>>项目中找到Search Path>>Header Search Path add /opt/local/inc 
+
+The new line for git test.
+my name is bianyang.a student study in waseda university,Japan.
